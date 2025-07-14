@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+      font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 13, 71);
+    padding :20px;
+    position:sticky;
+     top:0px;
+}
+
+.navbar .navbara2{
+    display: flex;
+}
+
+.navbar .navbara2 div a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.navbar article div img{
+    width:100px;
+}
+
+.navbar article div button
+{
+    width:120px;
+    padding:10px;
+    border-radius: 20px;
+    color: white;
+    background: #833AB4;
+background: linear-gradient(222deg,rgba(131, 58, 180, 1) 0%, rgba(217, 52, 52, 1) 100%, rgba(252, 176, 69, 1) 100%);
+border: none;
+font-size: 16px;
+}
+
+
+/* ==========navbar css end =========== */
+.hero{
+     text-align: center;
+     /* background-image: url(https://images.unsplash.com/photo-1614850523011-8f49ffc73908?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D); */
+     background-repeat: no-repeat;
+     background-size: cover;
+         padding-top: 200px;
+         padding-bottom: 150px;
+}
+.hero .herod1{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.hero .herod2{
+  font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+
+.he{
+    display: flex;
+       justify-content: space-around;
+        padding-top: -10px;
+}
+.he .he1 div img{
+     width: 200px;
+     cursor:pointer;
+      
+}
+.he .he1 div a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 700;
+   font-size: smaller;
+}
+
+.he .he1 .heroimg2{
+      width: 130px; 
+}
+.he .he1 .heroimg3{
+      width: 210px; 
+}
+.he .he1 .heroimg4{
+      width: 130px; 
+}
+.he .he1 .heroimg5{
+      width: 140px; 
+}
+
+
+.he .he1 .heroa1{
+    padding-left: 40px;
+}
+
+
+.he .he1 .heroa2{
+    padding-left: 50px;
+}
+
+.he .he1 .heroa3{
+    padding-left: 80px;
+}
+
+
+
+
+.po
+{
+    height:95vh;
+    width:100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+
+/* hero end */
+
+
+
+
+
+
+
+
+
+
+/* ===========================emerging */
+
+.emerginga1{
+    font-weight: 900;
+     font-size:xx-large; 
+     padding-top:100px;
+     padding-bottom:30px;
+     color: rgb(35, 35, 161);
+}
+
+
+
+
+
+.emerging .emerginga3d1{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-artificial-intelligence-future-technology-background-technology-backgroundtechnology-backgroundtechnology-image_72686.jpg");
+    width:300px;
+    height: 200px;
+    background-size: cover;
+    text-align:center;
+    color: white;
+    overflow: hidden;
+}
+
+
+.emerging .emerginga3d1{
+    padding-bottom: 200px;
+    font-weight: 700;
+}
+
+.emerging .emerginga3d1 p{
+    margin-top: -80px;
+}
+
+
+.emerging .emerginga3d1 p:hover{
+    padding-top:100px;
+    height:100px;
+    transition: all .5s;
+}
+
+
+/* ===============emerging article div 2 */
+
+.emerging .emerginga3d2{
+    background-image: url("https://i.pinimg.com/736x/f1/66/2d/f1662d77f4139fe71cf8ba15cdfacb8c.jpg");
+    width:300px;
+    height: 100px;
+    background-size: cover;
+    text-align:center;
+       color: white;
+    overflow: hidden;
+}
+
+.emerging .emerginga3d2{
+    padding-bottom: 300px;
+    font-weight: 700;
+    
+}
+.emerging .emerginga3d2 p{
+    margin-top: -80px;
+} 
+
+
+.emerging .emerginga3d2 p:hover{
+    padding-top:100px;
+    height:300px;
+    transition: all .5s;
+}
+
+
+/* ===============emerging article div 3 */
+.emerging .emerginga3d3{
+    background-image: url("https://i.pinimg.com/236x/1d/92/49/1d9249be69b04c0d87aba983804069ea.jpg");
+    width:300px;
+    height: 100px;
+    background-size: cover;
+      text-align: center;
+      color: white;
+    overflow: hidden;
+}
+
+.emerging .emerginga3d3{
+    padding-bottom: 300px;
+    font-weight: 700;
+    
+}
+.emerging .emerginga3d3 p{
+    margin-top: -80px;
+}
+
+
+.emerging .emerginga3d3 p:hover{
+    padding-top:100px;
+    height:300px;
+    transition: all .5s;
+}
+
+/* =========== emerging */
+
+.emerging article{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  
+}
+
+.emerging article div{
+    border-radius: 20px;
+    margin: 30px;
+}
