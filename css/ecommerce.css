@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0px;
-    margin: 0px;;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 body{
     background-color: rgb(210, 228, 228);
@@ -13,11 +17,13 @@ body{
      align-items: center;
       background-color: white;
       padding:5px;
+      position:sticky;
 
 }
 
-.navbar .navbara1{
-     background-color: white;
+.navbar .navbara1 img{
+     margin-left: -30px;
+     margin-right: 20px;
 }
 
 
@@ -27,29 +33,48 @@ body{
     padding: 7px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(204, 210, 211);
+    background-color: rgb(223, 228, 229);
     font-weight: 400;
     font-size: larger;
 }
 
-.navbar .navbara3{
+.navbar .navbara3 a button{
+    margin-left: 40px;
+      height: 40px;
+      width: 100px;
+          border: none;
+          background-color: white;
+          border-radius: 10px;
+          font-size:medium;
+}
+
+.navbar .navbara3 i{
+    padding-right: 10px;
+}
+
+.navbar .navbara3 a button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+.navbar .navbara4{
       display: flex;
       margin-right: 50px;
 }
 
 
-.navbar .navbara3 i{
+.navbar .navbara4 i{
     padding-right: 10px;
 }
-.navbar .navbara3 div a{
+.navbar .navbara4 div a{
     padding-left: 50px;
-    margin-left: 50px;
     text-decoration: none;
     color: black;
     font-size: large;
 }
 
-.navbar .navbara3 .navbara3d3{
+.navbar .navbara4 .navbara3d3{
     margin-left: 50px;
 }
 
@@ -73,8 +98,6 @@ body{
     background-color: white;
 }
 
-
-
 .product .productd1{
     padding-left: 100px;
 }
@@ -91,13 +114,6 @@ body{
     padding-left: 40px;
 }
 
-.product .productd2 div{
-    padding-left: 0x;
-} 
-
-.product .productd3{
-    padding-left: 0px;
-}
 
 .product .productd4{
     padding-left: 30px;
@@ -107,19 +123,148 @@ body{
     padding-left: 20px;
 }
 
-.product .productd6{
-    padding-left: 0px;
-}
-
-.product .productd7{
-    padding-left: 0px;
-}
-
-.product .productd8{
-    padding-left: 0px;
-}
 
 .product .productd9{
     padding-right: 100px;
 }
+
+
+
+/* product end */
+
+
+
+.image img{
+  height: 249px;
+  margin: 10px;
+}
+
+
+
+/* image end */
+
+.items div img{
+    height: 170px;
+}
+
+.items{
+    margin: 10px;
+    padding-top: 50px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.items article div img:hover{
+    scale: 1.05;
+    box-shadow: opx 0px 10px 10px ;
+}
+
+
+.items article .itemsa1d2{
+     margin-top: 10px;
+    margin-left: 25px;
+    justify-content: center;
+}
+
+.items article .itemsa1d3{
+   font-weight: 800;
+   justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 60px;
+}
+
+
+.items .itemsa2 .itemsa1d3{
+    padding-left: 15px;
+}
+
+.items .itemsa3 .itemsa1d3{
+    padding-left: 5px;
+}
+
+.items .itemsa4 .itemsa1d3{
+    padding-left: 5px;
+}
+
+.items .itemsa5 .itemsa1d3{
+    padding-left: 15px;
+}
+
+
+
+/* items end/////////////////////////////////////////////////////////////// */
+
+.category div img{
+    height: 265px;
+     padding-bottom: 10px;
+}
+
+.category{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+   background-color: white;
+}
+
+/* end category///////////////////////////////////////////////////////////////////// */
+
+.aero img{
+    height: 320px;
+    width: 1500px;
+    margin:10px;
+}
+
+/* /end aero/////////////////////////////////////////////////////////////////// */
+
+
+.goods img{
+    height: 152px;
+    padding-bottom: 10px;
+}
+
+.goods {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* end goods/////////////////////// */
+
+
+.footer{
+    height: 400px;
+    background-color: rgb(28, 25, 25);
+    margin: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer .footerd1l1{
+    color: rgb(104, 95, 95);
+}
+
+.footer div ul{
+    padding-top: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer div ul li{
+    font-size: small;
+}
+
+
+
 
